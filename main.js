@@ -10,12 +10,13 @@
 */
 
 const CONFIG = {
-  // The one official contract address. Paste it here the moment it exists.
-  // e.g. "0x6190f0cbd19af89469aeb782d3bbf0f3770c64e3"
-  ca: null,
+  // The one official contract address. This is the single source of truth for
+  // it on the page — the header chip, the strip, the copy buttons and the
+  // explorer link all read from here.
+  ca: "0xb871A9C07595Ba956B216bc6210468cd009909B5",
 
-  // Where people buy it. null until the pool is live.
-  buyUrl: null,          // e.g. "https://pons.fun/token/0x…"
+  // Where people buy it.
+  buyUrl: "https://www.ponsfamily.com/launchpad/0xb871A9C07595Ba956B216bc6210468cd009909B5",
   chartUrl: null,        // e.g. a DEX chart for the pair
 
   // Socials. null hides / disables the button rather than guessing a handle.
