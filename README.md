@@ -60,3 +60,10 @@ unavailable on `file://` — the copy button falls back to `execCommand` there.
 
 Pushing to `main` publishes it. GitHub Pages serves this repo's root; `.nojekyll`
 stops Jekyll from touching the files on the way out.
+
+**Bump the `?v=` on `styles.css` and `main.js` in `index.html` whenever you change
+either file.** Pages sends `Cache-Control: max-age=600`, so without it a visitor
+who loaded the site in the last ten minutes keeps the old JS — and the old JS is
+what decides whether the page shows a contract address or `TBA`. The HTML itself
+is revalidated, so bumping the query string is enough to pull the new assets
+through with it.
