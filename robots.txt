@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://plutos-eth.github.io/sitemap.xml

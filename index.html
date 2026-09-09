@@ -1,0 +1,490 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>banana — Buy anything. Never analyze. Never ask.</title>
+<meta name="description" content="$BANANA on Robinhood Chain. The coin rides with banana: a local desktop sniper terminal and strategy backtester for pons v2. Open source, MIT, nothing leaves your machine.">
+<meta name="theme-color" content="#0e0f11">
+<link rel="canonical" href="https://plutos-eth.github.io/">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="banana">
+<meta property="og:title" content="banana — Buy anything. Never analyze. Never ask.">
+<meta property="og:description" content="$BANANA on Robinhood Chain. The coin rides with banana: a local sniper terminal and strategy backtester for pons v2.">
+<meta property="og:url" content="https://plutos-eth.github.io/">
+<meta property="og:image" content="https://plutos-eth.github.io/assets/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="banana — Buy anything. Never analyze. Never ask.">
+<meta name="twitter:description" content="$BANANA on Robinhood Chain. Open-source sniper terminal for pons v2. Everything runs on your machine.">
+<meta name="twitter:image" content="https://plutos-eth.github.io/assets/og.jpg">
+
+<link rel="icon" href="assets/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+<link rel="icon" type="image/png" sizes="64x64" href="assets/favicon-64.png">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<a class="skip" href="#main">Skip to content</a>
+
+<!-- ─────────────────────────────  HEADER  ───────────────────────────── -->
+<header class="hdr" id="hdr">
+  <div class="wrap hdr-in">
+    <a class="brand" href="#top" aria-label="banana — home">
+      <img src="assets/mark-256.png" alt="" width="34" height="34" class="brand-mark">
+      <span class="brand-word">banana<i>.</i></span>
+    </a>
+
+    <nav class="nav" aria-label="Sections">
+      <a href="#tool">The tool</a>
+      <a href="#numbers">Numbers</a>
+      <a href="#coin">$BANANA</a>
+      <a href="#download">Download</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+
+    <div class="hdr-right">
+      <button class="ca-chip" type="button" data-copy-ca title="Copy contract address">
+        <span class="ca-chip-k">CA:</span>
+        <span class="ca-chip-v" data-ca-short>TBA</span>
+      </button>
+      <a class="btn-ghost btn-xs" href="https://github.com/plutos-eth/banana" target="_blank" rel="noopener">GitHub <span class="arw">↗</span></a>
+      <span class="chain-pill"><i class="dot"></i>Chain 4663</span>
+      <button class="burger" type="button" aria-label="Menu" aria-expanded="false" aria-controls="mobnav">
+        <span></span><span></span>
+      </button>
+    </div>
+  </div>
+  <div class="mobnav" id="mobnav" hidden>
+    <a href="#tool">The tool</a>
+    <a href="#numbers">Numbers</a>
+    <a href="#coin">$BANANA</a>
+    <a href="#download">Download</a>
+    <a href="#faq">FAQ</a>
+    <a href="https://github.com/plutos-eth/banana" target="_blank" rel="noopener">GitHub ↗</a>
+  </div>
+</header>
+
+<main id="main">
+<span id="top"></span>
+
+<!-- ─────────────────────────────  CONTRACT STRIP  ───────────────────────────── -->
+<div class="wrap">
+  <div class="ca-bar" data-copy-ca role="button" tabindex="0" title="Copy contract address">
+    <span class="ca-bar-tag"><i class="dot dot-pending" data-ca-dot></i><span data-ca-label>PENDING LAUNCH</span></span>
+    <span class="ca-bar-sep"></span>
+    <span class="ca-bar-body">
+      <span class="ca-bar-k">CA:</span>
+      <code class="ca-bar-v" data-ca-full>Announced here and on X at launch</code>
+      <span class="ca-copy" data-ca-copy-hint="copy">copy</span>
+    </span>
+    <span class="ca-bar-net">Robinhood Chain · 4663</span>
+  </div>
+</div>
+
+<!-- ─────────────────────────────  HERO  ───────────────────────────── -->
+<section class="hero wrap">
+  <div class="hero-l">
+    <p class="eyebrow"><i class="dot"></i>$BANANA · PONS V2 · ROBINHOOD CHAIN</p>
+    <h1>Buy anything.<br>Never analyze.<br><span class="key">Never ask.</span></h1>
+    <p class="lede">
+      That is what the banner says. The software does the exact opposite — it reads every
+      pons&nbsp;v2 launch as it happens, refuses almost all of them, and tells you which rule
+      refused each one. <strong>$BANANA</strong> is the coin that rides with it.
+    </p>
+    <div class="hero-cta">
+      <a class="btn-key" href="#coin">Get $BANANA <span class="arw">↓</span></a>
+      <a class="btn-ghost" href="https://github.com/plutos-eth/banana" target="_blank" rel="noopener">Read the source <span class="arw">↗</span></a>
+    </div>
+    <ul class="dots-row">
+      <li>RUNS LOCALLY</li>
+      <li>NO TELEMETRY</li>
+      <li>MIT LICENSED</li>
+    </ul>
+  </div>
+
+  <figure class="hero-card">
+    <div class="card-top">
+      <span class="mono-xs">BANANA / 001</span>
+      <span class="mono-xs live"><i class="dot"></i>ON CHAIN</span>
+    </div>
+    <div class="card-art">
+      <picture>
+        <source srcset="assets/mark.webp" type="image/webp">
+        <img src="assets/mark.jpg" alt="The banana in a Robin Hood hat — the $BANANA mark." width="640" height="640" fetchpriority="high">
+      </picture>
+    </div>
+    <div class="card-foot">
+      <div><span class="mono-xs">NETWORK</span><b>Robinhood Chain</b></div>
+      <div><span class="mono-xs">VENUE</span><b>pons v2</b></div>
+      <div><span class="mono-xs">CLIENT</span><b>Local only</b></div>
+    </div>
+  </figure>
+</section>
+
+<!-- ─────────────────────────────  TICKER  ───────────────────────────── -->
+<div class="ticker" aria-hidden="true">
+  <div class="ticker-run">
+    <span>GOOD DEGENS <i>✦</i> BETTER TOMORROW <i>✦</i> ONE LAUNCH IN 78 GRADUATES <i>✦</i> NOTHING LEAVES YOUR MACHINE <i>✦</i> THE HEADLINE IS NEVER A PEAK <i>✦</i> </span>
+    <span>GOOD DEGENS <i>✦</i> BETTER TOMORROW <i>✦</i> ONE LAUNCH IN 78 GRADUATES <i>✦</i> NOTHING LEAVES YOUR MACHINE <i>✦</i> THE HEADLINE IS NEVER A PEAK <i>✦</i> </span>
+  </div>
+</div>
+
+<!-- ─────────────────────────────  01 · THE TOOL  ───────────────────────────── -->
+<section class="sec wrap" id="tool">
+  <div class="sec-head">
+    <span class="sec-num">01</span>
+    <div>
+      <p class="eyebrow">THE TOOL</p>
+      <h2>Two halves. One rule engine.</h2>
+    </div>
+    <p class="sec-note">
+      banana is a desktop terminal, not a website and not a bot you rent. It runs on your
+      machine and talks to nothing but the RPC endpoint you configure.
+    </p>
+  </div>
+
+  <div class="grid-2">
+    <article class="card">
+      <p class="mono-xs card-kicker">01 / SNIPER</p>
+      <h3>Watches every launch, live.</h3>
+      <p>
+        It sees each pons v2 launch as it happens, evaluates it against a transparent boolean
+        filter, waits until the opening tax decays under a ceiling you set, and buys. Every
+        refusal is recorded with the rule that caused it.
+      </p>
+      <ul class="ticks">
+        <li>Transparent boolean filter — no score, no black box</li>
+        <li>Waits out tax decay before it prices the order</li>
+        <li>TEST mode rehearses the whole pipeline against the real chain</li>
+      </ul>
+    </article>
+
+    <article class="card">
+      <p class="mono-xs card-kicker">02 / STRATEGY LAB</p>
+      <h3>Indexes history, offline.</h3>
+      <p>
+        The Lab indexes launch history to local SQLite, runs the same filter against it with no
+        network at all, and shows what actually happened to the tokens that passed — including
+        the ones that went to zero.
+      </p>
+      <ul class="ticks">
+        <li>Funnel view that shows the denominator, not just the winners</li>
+        <li>Rule editor sits beside the backtest it feeds</li>
+        <li>Honesty guards printed on the screen, every run</li>
+      </ul>
+    </article>
+  </div>
+
+  <div class="panel link-panel">
+    <div>
+      <p class="eyebrow">THE LINK BETWEEN THEM</p>
+      <h3 class="panel-h">One <code>strategy.json</code>. Two consumers. No translation step.</h3>
+      <p class="panel-p">
+        The same file you tune in the Lab is the file the sniper trades from. Nothing is
+        re-typed, re-interpreted or re-approximated on the way across — which is the only
+        reason a backtest tells you anything about the thing that will run tonight.
+      </p>
+    </div>
+    <pre class="code-block"><code><span class="c-dim">crates/core</span>      the rule engine and curve maths
+<span class="c-dim">crates/chain</span>     JSON-RPC and the priority gate
+<span class="c-dim">crates/store</span>     SQLite — history.db, live.db
+<span class="c-dim">crates/indexer</span>   four-phase history indexer
+<span class="c-dim">crates/backtest</span>  the Lab: funnel, outcomes, guards
+<span class="c-key">crates/live</span>      the only crate that may hold a key</code></pre>
+  </div>
+</section>
+
+<!-- ─────────────────────────────  BANNER BAND  ───────────────────────────── -->
+<div class="band">
+  <picture>
+    <source srcset="assets/banner.webp" type="image/webp">
+    <img src="assets/banner.jpg" alt="banana — a banana in a Robin Hood hat riding through a moonlit forest above a green city skyline." width="1920" height="645" loading="lazy">
+  </picture>
+</div>
+
+<!-- ─────────────────────────────  02 · NUMBERS  ───────────────────────────── -->
+<section class="sec wrap" id="numbers">
+  <div class="sec-head">
+    <span class="sec-num">02</span>
+    <div>
+      <p class="eyebrow">MEASURED, NOT CLAIMED</p>
+      <h2>Roughly 1 launch in 78 graduates.</h2>
+    </div>
+    <p class="sec-note">
+      Measured against a 24-hour window of real Robinhood Chain history on 2026&#8209;09&#8209;07.
+      The Lab is built to show you that denominator rather than bury it.
+    </p>
+  </div>
+
+  <div class="stats">
+    <div class="stat">
+      <b>1<span class="stat-sm">in</span>78</b>
+      <p>launches graduate. The rest are the ordinary case, not the exception.</p>
+    </div>
+    <div class="stat">
+      <b>~856,500</b>
+      <p>blocks in a 24-hour indexing window, held in local SQLite.</p>
+    </div>
+    <div class="stat">
+      <b>0</b>
+      <p>outbound requests from the UI. The CSP makes it impossible, not merely absent.</p>
+    </div>
+    <div class="stat">
+      <b>~60<span class="stat-sm">%</span></b>
+      <p>of launches are paired against something other than ETH — and refused by name.</p>
+    </div>
+  </div>
+
+  <div class="panel guards">
+    <div class="guards-l">
+      <p class="eyebrow">HONESTY GUARDS</p>
+      <h3 class="panel-h">The screen argues with you on purpose.</h3>
+      <p class="panel-p">
+        Every number a backtest produces is easy to read as a promise. These three live in the
+        primary reading path so that it cannot happen quietly.
+      </p>
+    </div>
+    <ol class="guard-list">
+      <li>
+        <span class="mono-xs">01</span>
+        <div><b>The headline is never a peak.</b>
+        <p><code>max_multiple</code> is labelled “max achievable / peak” and never “profit”. The headline is the fixed-hold multiple — what a rule you could actually have executed would have produced.</p></div>
+      </li>
+      <li>
+        <span class="mono-xs">02</span>
+        <div><b>A backtest is evidence about one window.</b>
+        <p>If the whole chain was rising across the window you indexed, every strategy looks good. The Lab says so on the screen, every time.</p></div>
+      </li>
+      <li>
+        <span class="mono-xs">03</span>
+        <div><b>It does not detect rugs, honeypots or scams.</b>
+        <p>It reads what a launch declared about itself and what its deployer did before. That is all it reads, and it says so.</p></div>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<!-- ─────────────────────────────  03 · THE COIN  ───────────────────────────── -->
+<section class="sec wrap" id="coin">
+  <div class="sec-head">
+    <span class="sec-num">03</span>
+    <div>
+      <p class="eyebrow">THE COIN</p>
+      <h2>$BANANA rides with the build.</h2>
+    </div>
+    <p class="sec-note">
+      The terminal is free, open source and MIT licensed. It does not need the coin to run, and
+      the coin makes no claim on it. One is software, the other is a joke with a ticker.
+    </p>
+  </div>
+
+  <div class="coin-grid">
+    <div class="panel coin-ca">
+      <p class="eyebrow"><i class="dot dot-pending" data-ca-dot></i><span data-ca-label>PENDING LAUNCH</span></p>
+      <h3 class="panel-h">Contract address</h3>
+      <div class="ca-box" data-copy-ca role="button" tabindex="0">
+        <code data-ca-full>Announced here and on X at launch</code>
+        <span class="ca-box-btn" data-ca-copy-hint="Copy">Copy</span>
+      </div>
+      <p class="panel-p small">
+        There is exactly one official contract, and it will appear on this page and on the
+        project’s X account at the same moment. Anything posted anywhere else, earlier, is not
+        it. Check the address character by character before you send anything.
+      </p>
+      <div class="coin-links">
+        <a class="btn-key" data-buy-link href="#" aria-disabled="true">Buy on pons <span class="arw">↗</span></a>
+        <a class="btn-ghost" data-chart-link href="#" aria-disabled="true">Chart <span class="arw">↗</span></a>
+      </div>
+    </div>
+
+    <div class="specs">
+      <div class="spec"><span class="mono-xs">TICKER</span><b>$BANANA</b></div>
+      <div class="spec"><span class="mono-xs">NETWORK</span><b>Robinhood Chain</b></div>
+      <div class="spec"><span class="mono-xs">CHAIN ID</span><b>4663</b></div>
+      <div class="spec"><span class="mono-xs">VENUE</span><b>pons v2</b></div>
+      <div class="spec"><span class="mono-xs">SUPPLY</span><b data-supply>TBA</b></div>
+      <div class="spec"><span class="mono-xs">TAX</span><b data-tax>TBA</b></div>
+    </div>
+  </div>
+
+  <h3 class="sub-h">Three steps, and none of them are in the app.</h3>
+  <div class="grid-3">
+    <article class="card step">
+      <p class="mono-xs card-kicker">01 / WALLET</p>
+      <h4>Point a wallet at chain 4663.</h4>
+      <p>Add Robinhood Chain to any EVM wallet you already use, and fund it with ETH on that chain. Use an amount whose total loss would not change your week.</p>
+    </article>
+    <article class="card step">
+      <p class="mono-xs card-kicker">02 / SWAP</p>
+      <h4>Swap on pons.</h4>
+      <p>Open the contract address from this page on <a href="https://pons.fun" target="_blank" rel="noopener">pons.fun</a> and swap ETH for $BANANA. Verify the address you are trading against, not the name beside it.</p>
+    </article>
+    <article class="card step">
+      <p class="mono-xs card-kicker">03 / TERMINAL</p>
+      <h4>Then go get the terminal.</h4>
+      <p>The coin does not unlock anything — the software is free either way. Download it, run TEST mode, and read what it refuses before you let it near a key.</p>
+    </article>
+  </div>
+</section>
+
+<!-- ─────────────────────────────  04 · DOWNLOAD  ───────────────────────────── -->
+<section class="sec wrap" id="download">
+  <div class="sec-head">
+    <span class="sec-num">04</span>
+    <div>
+      <p class="eyebrow">GET THE TERMINAL</p>
+      <h2>Free, offline, and yours.</h2>
+    </div>
+    <p class="sec-note">
+      Builds are produced by GitHub Actions from a tagged commit. Every release publishes
+      <code>SHA256SUMS.txt</code> — verify before you run something that will hold a private key.
+    </p>
+  </div>
+
+  <div class="dl">
+    <div class="dl-table-wrap">
+    <table class="dl-table">
+      <thead><tr><th>Platform</th><th>File</th></tr></thead>
+      <tbody>
+        <tr><td>Windows 10/11</td><td><code>banana_&lt;version&gt;_x64_en-US.msi</code></td></tr>
+        <tr><td>macOS (Apple Silicon)</td><td><code>banana_&lt;version&gt;_aarch64.dmg</code></td></tr>
+        <tr><td>macOS (Intel)</td><td><code>banana_&lt;version&gt;_x64.dmg</code></td></tr>
+        <tr><td>Linux (Debian/Ubuntu)</td><td><code>banana_&lt;version&gt;_amd64.deb</code></td></tr>
+        <tr><td>Linux (anything)</td><td><code>banana_&lt;version&gt;_amd64.AppImage</code></td></tr>
+      </tbody>
+    </table>
+    </div>
+
+    <aside class="dl-side">
+      <div class="note-card">
+        <p class="mono-xs">NOT CODE-SIGNED</p>
+        <p>That is a cost decision, not an oversight, and your operating system will warn you.
+           Windows shows “Windows protected your PC” — <em>More info → Run anyway</em>. macOS
+           calls it damaged — right-click → <em>Open</em> → <em>Open</em>.</p>
+      </div>
+      <a class="btn-key wide" href="https://github.com/plutos-eth/banana/releases" target="_blank" rel="noopener">Latest release <span class="arw">↗</span></a>
+      <a class="btn-ghost wide" href="https://github.com/plutos-eth/banana#install" target="_blank" rel="noopener">Build it yourself <span class="arw">↗</span></a>
+    </aside>
+  </div>
+
+  <div class="panel risk">
+    <div class="risk-head">
+      <span class="risk-mark">!</span>
+      <div>
+        <p class="eyebrow warn">READ THIS BEFORE YOU RUN IT</p>
+        <h3 class="panel-h">This software can lose all of the money you give it.</h3>
+      </div>
+    </div>
+    <div class="risk-cols">
+      <p>It is a trading tool for one of the most adversarial markets there is, and there is no
+         warranty of any kind. Your private key is stored in plaintext — use a wallet that holds
+         only what you are prepared to lose.</p>
+      <p>LIVE mode has been exercised on mainnet by a small number of testers, on their own
+         machines and their own wallets. That is not the same as being proven. Run TEST first:
+         it rehearses every step against the real chain and stops at the signature.</p>
+      <p>$BANANA is a memecoin. It has no intrinsic value, no yield, no team promises and no
+         roadmap you can hold anyone to. Nothing on this page is financial advice.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ─────────────────────────────  05 · FAQ  ───────────────────────────── -->
+<section class="sec wrap" id="faq">
+  <div class="sec-head">
+    <span class="sec-num">05</span>
+    <div>
+      <p class="eyebrow">FAQ</p>
+      <h2>Questions the banana gets a lot.</h2>
+    </div>
+    <p class="sec-note">
+      Short answers about what the coin is, what the software reads, and what both of them
+      deliberately refuse to do.
+    </p>
+  </div>
+
+  <div class="faq">
+    <details class="qa">
+      <summary><span>Do I need $BANANA to use the terminal?</span><i class="pm"></i></summary>
+      <div class="qa-body"><p>No. The terminal is MIT licensed and free, and it has no token gate, no licence check and no account. It does not know whether you hold anything. The coin is a joke about the chain it runs on, and the software would work identically if the coin had never existed.</p></div>
+    </details>
+    <details class="qa">
+      <summary><span>Does banana detect rugs, honeypots or scams?</span><i class="pm"></i></summary>
+      <div class="qa-body"><p>No, and it never claims to. It reads what a launch declared about itself and what its deployer did before. That is the whole input. A launch can pass every rule you wrote and still go to zero — the Lab shows you exactly those launches on purpose.</p></div>
+    </details>
+    <details class="qa">
+      <summary><span>Does it connect to my wallet?</span><i class="pm"></i></summary>
+      <div class="qa-body"><p>There is no wallet connection, no signer prompt and no browser extension. LIVE mode reads a key from a file on your own disk, in plaintext, and signs locally. Nothing leaves your machine except JSON-RPC to the endpoint you configured yourself.</p></div>
+    </details>
+    <details class="qa">
+      <summary><span>What does “nothing leaves your machine” actually mean?</span><i class="pm"></i></summary>
+      <div class="qa-body"><p>No telemetry, no vendor server, no third-party price API and no account. A launch’s calldata contains an attacker-controlled logo URL; if the webview could fetch it, a deployer would learn the IP of every banana user watching their launch, in real time, before they buy. The Content-Security-Policy forbids outbound requests and CI compares every directive exactly on each build.</p></div>
+    </details>
+    <details class="qa">
+      <summary><span>Where does my data live?</span><i class="pm"></i></summary>
+      <div class="qa-body"><p><code>%APPDATA%\banana</code> on Windows, <code>~/Library/Application Support/banana</code> on macOS, and <code>$XDG_DATA_HOME/banana</code> (or <code>~/.local/share/banana</code>) on Linux. It holds the indexed chain facts, your positions and every refusal, your <code>strategy.json</code>, and — only if you set one — your key.</p></div>
+    </details>
+    <details class="qa">
+      <summary><span>What will it refuse to do?</span><i class="pm"></i></summary>
+      <div class="qa-body"><p>Two gaps are code that is not written yet, and you will meet them. A position that graduates to a Uniswap v4 pool while you hold it: the program refuses to sell and tells you to sell by hand. And launches paired against anything other than ETH — roughly 60% of them — are refused by name, because a non-ETH quote needs allowance handling the program does not do.</p></div>
+    </details>
+    <details class="qa">
+      <summary><span>Is this affiliated with pons, Uniswap or Robinhood?</span><i class="pm"></i></summary>
+      <div class="qa-body"><p>No. banana is an independent client that reads public chain data and submits ordinary transactions. The name, the artwork and the Robin Hood theme are a joke about the chain this runs on — not a claim of any relationship with anyone, and nothing here is licensed from or approved by the projects named above.</p></div>
+    </details>
+    <details class="qa">
+      <summary><span>How do I know I have the right contract address?</span><i class="pm"></i></summary>
+      <div class="qa-body"><p>Take it from this page or from the project’s X account, and from nowhere else. Both will publish it at the same moment. Any address circulated before that — in a DM, a reply, a group chat — is not the token, whatever it is named. Compare every character, not the first four.</p></div>
+    </details>
+  </div>
+</section>
+
+<!-- ─────────────────────────────  CTA  ───────────────────────────── -->
+<section class="wrap">
+  <div class="cta">
+    <div>
+      <p class="eyebrow ink">GOOD DEGENS, BETTER TOMORROW</p>
+      <h2 class="cta-h">Ride with the build.<br>Read the source.</h2>
+      <p class="cta-p">Everything is public: the rule engine, the CI invariants, and the measurements behind every number on this page.</p>
+    </div>
+    <div class="cta-btns">
+      <a class="btn-ink" data-x-link href="#" aria-disabled="true">Follow on X <span class="arw">↗</span></a>
+      <a class="btn-out" href="https://github.com/plutos-eth/banana" target="_blank" rel="noopener">banana on GitHub <span class="arw">↗</span></a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ─────────────────────────────  FOOTER  ───────────────────────────── -->
+<footer class="ftr">
+  <div class="wrap ftr-in">
+    <a class="brand small" href="#top">
+      <img src="assets/mark-256.png" alt="" width="26" height="26" class="brand-mark">
+      <span class="brand-word">banana<i>.</i></span>
+    </a>
+    <div class="ftr-mid">
+      <p>Local-only · open source · MIT · pons v2 · Robinhood Chain 4663</p>
+      <p>Not affiliated with pons, Uniswap, Robinhood or Robinhood Chain. $BANANA is a memecoin with no intrinsic value. Nothing here is financial advice, and you can lose everything you put in.</p>
+    </div>
+    <div class="ftr-links">
+      <a href="https://github.com/plutos-eth/banana" target="_blank" rel="noopener">GitHub ↗</a>
+      <a href="https://pons.fun" target="_blank" rel="noopener">pons ↗</a>
+      <a href="#top">Top ↑</a>
+    </div>
+  </div>
+</footer>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script src="main.js"></script>
+</body>
+</html>
